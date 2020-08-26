@@ -1,0 +1,63 @@
+{
+  "repository": {
+    "id": 555,
+    "full_name": "BoiseState/CS471-Assignments-Builder",
+    "owner": {
+      "id": 1234,
+      "login": "BoiseState"
+    }
+  },
+  "listOfIssues": [
+    {
+      "id": 10,
+      "title": "Sample user story",
+      "description": "As a TypeOfUserOrRole, I need to TBDGoal so that TBDBenefit\n\n**Acceptance Criteria:**\n- [ ] Given TBDContext, when TBDTrigger, then TBDSomeResult\n- [ ] Given TBDContext, when TBDTrigger, then TBDSomeResult\n\n",
+      "isOpen": true,
+      "labels": ["story", "priority-high"],
+      "comments": [
+        {
+          "id": 101,
+          "text": "first comment user story"
+        },
+        {
+          "id": 102,
+          "text": "second comment user story"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Sample bug",
+      "description": "**Steps to Reproduce:**\n1. TBD\n2.\n3.\n4.\n\n**Actual Results:**\nTBD\n\n**Expected Results:**\nTBD\n\n**Other notes:**\nTBD\n ",
+      "isOpen": true,
+      "labels": ["bug", "confirmed"],
+      "comments": [
+        {
+          "id": 201,
+          "text": "first comment bug :bug:"
+        },
+        {
+          "id": 202,
+          "text": "might be a duplicate of bug #234"
+        },
+        {
+          "id": 203,
+          "text": "another comment for bug"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Sample task",
+      "description": "References user story #10\n\nAdditional Task Details\n",
+      "isOpen": false,
+      "labels": ["front-end"],
+      "comments": [
+        {
+          "id": 301,
+          "text": "first comment for task"
+        }
+      ]
+    }
+  ]
+}
